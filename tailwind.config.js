@@ -4,16 +4,20 @@ export default {
 
   theme: {
     extend: {
+      colors: {
+        dark: "#121212",
+        light_grey: "#1F1F1F"
+      },
       fontFamily: {
         spotify: [
-          'SpotifyMixUI',
-          'CircularSp',
+          "SpotifyMixUI",
+          "CircularSp",
           '"Helvetica Neue"',
-          'Arial',
-          'sans-serif',
+          "Arial",
+          "sans-serif",
         ],
       },
     },
   },
   plugins: [],
-}
+};
